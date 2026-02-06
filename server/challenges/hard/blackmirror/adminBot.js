@@ -1,7 +1,9 @@
 const puppeteer = require("puppeteer");
 const jwt = require("jsonwebtoken");
 
-const TARGET = "http://localhost:5000";
+const TARGET =
+  process.env.BACKEND_URL ||
+  `http://localhost:${process.env.PORT || 5000}`;
 
 async function startBot() {
   const browser = await puppeteer.launch({
