@@ -13,7 +13,7 @@ Authentication is required.
 `,
 
     endpoints: [
-      "/auth/*",
+      "/auth/login (guys check out /writeup, or use ur {'email': '', 'password': ''} it will give u bearer auth token, add that token in your header to access the lab)",
       "GET /labs/idor/secret/:id",
       "GET /labs/idor/my-secrets"
     ],
@@ -41,7 +41,7 @@ Inject SQL into the search endpoint to extract hidden data.
 `,
 
     endpoints: [
-      "/auth/*",
+      "/auth/login (guys check out /writeup, or use ur {'email': '', 'password': ''} it will give u bearer auth token, add that token in your header to access the lab)",
       "GET /labs/sqli/search?q="
     ],
     
