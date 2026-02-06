@@ -1,6 +1,5 @@
-=====================
-      VOID-CTF
-=====================
+
+VOID-CTF
 
 A free web based Capture The Flag platform for practicing real world web security vulnerabilities.
 
