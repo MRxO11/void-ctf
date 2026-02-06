@@ -1,10 +1,6 @@
-__     __   ___   ___   ____       ____  _____  _____
-\ \   / /  / _ \ |_ _| |  _ \     / ___||_   _||  ___|
- \ \ / /  | | | | | |  | | | |   | |      | |  | |_   
-  \ V /   | |_| | | |  | |_| |   | |___   | |  |  _|  
-   \_/     \___/ |___| |____/     \____|  |_|  |_|    
-
-VOID-CTF
+=====================
+      VOID-CTF
+=====================
 
 A free web based Capture The Flag platform for practicing real world web security vulnerabilities.
 
