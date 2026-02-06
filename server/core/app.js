@@ -23,6 +23,8 @@ const cors = require("cors");
 app.use(express.json({ limit: "200kb" }));
 app.use(express.urlencoded({ extended: false, limit: "200kb" }));
 
+app.set("trust proxy", 1);
+
 app.use(
   cors({
     origin: process.env.CORS_ORIGIN || "http://localhost:5173",
